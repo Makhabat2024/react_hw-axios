@@ -1,0 +1,68 @@
+.container {
+	padding-inline: 60px;
+	.form {
+		padding-block: 30px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		gap: 30px;
+
+		input {
+			padding-block: 10px;
+			padding-inline: 20px;
+
+			width: 200px;
+			height: 30px;
+			background: transparent;
+
+			border: none;
+			border: 1px solid #e9e5e5;
+			border-radius: 20px;
+			box-shadow: 2px 2px 2px 1px rgba(91, 87, 87, 0.781);
+		}
+		button {
+			width: 80px;
+			height: 30px;
+			background: transparent;
+			border: 1px solid #e9e5e5;
+			border-radius: 20px;
+			box-shadow: 2px 2px 2px 1px rgba(91, 87, 87, 0.781);
+		}
+	}
+	.todoList {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 20px;
+
+		.todoItem {
+			padding-block: 20px;
+			padding-inline: 20px;
+			width: 250px;
+			height: 350px;
+			background: rgb(97, 72, 240);
+
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			gap: 10px;
+
+			border-radius: 20px;
+			box-shadow: 2px 2px 2px 1px rgba(248, 248, 248, 0.781);
+			img {
+				width: 180px;
+				height: 200px;
+				border-radius: 20px;
+				box-shadow: 2px 2px 2px 1px rgba(91, 87, 87, 0.781);
+			}
+			.textBox {
+				display: flex;
+				flex-direction: column;
+			}
+			.buttons {
+				display: flex;
+				gap: 30px;
+			}
+		}
+	}
+}
